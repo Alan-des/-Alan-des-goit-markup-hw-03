@@ -10,15 +10,21 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Studio</title>
   </head>
   <body>
     <!-- header -->
     <header>
-     <div class="container main-nav">
+      <div class="container main-nav">
         <nav class="main-nav">
           <a href="./index.html" class="logo link"
             ><span class="logo-color">Web</span>Studio</a
@@ -35,7 +41,7 @@
         </nav>
         <address class="auth-nav">
           <ul class="auth-nav list">
-            <li class=" item">
+            <li class="item">
               <a href="mailto:info@devstudio.com" class="list-contact link"
                 >info@devstudio.com</a
               >
@@ -47,45 +53,49 @@
             </li>
           </ul>
         </address>
-     </div >
+      </div>
     </header>
     <!-- main -->
     <main>
       <!-- hero -->
       <section class="hero">
-       <div class="container">
-          <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="hero-btn btn">Order Service</button>
-       </div >
+        <div class="container">
+          <div class="hero-titl-buttn">
+            <h1 class="hero-title">Effective Solutions for Your Business</h1>
+            <button type="button" class="hero-btn btn">Order Service</button>
+          </div>
+        </div>
       </section>
 
       <!-- преимущества -->
-      <section class="benefits section">
+      <section class="benefits section-b">
         <div class="container">
           <h2 class="visually-hidden">benefits</h2>
           <ul class="benefist-list list">
-            <li>
-              <h3 class="benefits-title">Strategy</h3>
-              <p class="benefits-text">
-                Our goal is to identify the business problem to walk away with the
-                perfect and creative solution.
-              </p>
+            <li class="benefist-item">
+              <div class="benefist-text-title">
+                <h3 class="benefits-title">Strategy</h3>
+                <p class="benefits-text">
+                  Our goal is to identify the business problem to walk away with
+                  the perfect and creative solution.
+                </p>
+              </div>
             </li>
-            <li>
+            <li class="benefist-item">
               <h3 class="benefits-title">Punctuality</h3>
               <p class="benefits-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="benefist-item">
               <h3 class="benefits-title">Diligence</h3>
               <p class="benefits-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="benefist-item">
               <h3 class="benefits-title">Technologies</h3>
               <p class="benefits-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -93,7 +103,7 @@
               </p>
             </li>
           </ul>
-        </div >
+        </div>
       </section>
       <!-- What are we doing -->
       <section class="doing section">
@@ -125,67 +135,79 @@
               />
             </li>
           </ul>
-        </section>
-        <!-- team -->
-        <section class="team section">
-          <div class="container">
-            <h2 class="team-title">Our Team</h2>
-            <ul class="team-list list">
-              <li class="team-item">
-                <img
-                  src="./images/img.jpg"
-                  alt="employee"
-                  width="264"
-                  height="260"
-                />
+        </div>
+      </section>
+
+      <!-- team -->
+      <section class="team section">
+        <div class="container">
+          <h2 class="team-title">Our Team</h2>
+          <ul class="team-list list">
+            <li class="team-item">
+              <img
+                src="./images/img.jpg"
+                alt="employee"
+                width="264"
+                height="260"
+              />
+              <div class="team-title-text">
                 <h3 class="team-after-title">Mark Guerrero</h3>
                 <p class="team-text">Product Designer</p>
-              </li>
-              <li class="team-item">
-                <img
-                  src="./images/img_man.jpg"
-                  alt="employee"
-                  width="264"
-                  height="260"
-                />
+              </div>
+            </li>
+            <li class="team-item">
+              <img
+                src="./images/img_man.jpg"
+                alt="employee"
+                width="264"
+                height="260"
+              />
+              <div class="team-title-text">
                 <h3 class="team-after-title">Tom Ford</h3>
                 <p class="team-text">Frontend Developer</p>
-              </li>
-              <li class="team-item">
-                <img
-                  src="./images/img_women.jpg"
-                  alt="employee"
-                  width="264"
-                  height="260"
-                />
+              </div>
+            </li>
+            <li class="team-item">
+              <img
+                src="./images/img_women.jpg"
+                alt="employee"
+                width="264"
+                height="260"
+              />
+              <div class="team-title-text">
                 <h3 class="team-after-title">Camila Garcia</h3>
                 <p class="team-text">Marketing</p>
-              </li>
-              <li class="team-item">
-                <img
-                  src="./images/man.jpg"
-                  alt="employee"
-                  width="264"
-                  height="260"
-                />
+              </div>
+            </li>
+            <li class="team-item">
+              <img
+                src="./images/man.jpg"
+                alt="employee"
+                width="264"
+                height="260"
+              />
+              <div class="team-title-text">
                 <h3 class="team-after-title">Daniel Wilson</h3>
                 <p class="team-text">UI Designer</p>
-              </li>
-            </ul>
-          </div >
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!-- footer -->
     <footer class="footer">
-     <div class="container-footer">
-        <a href="./index.html" class="footer-logo logo link"
-          ><span class="logo-color">Web</span>Studio</a
-        >
-        <p class="footer-text">
-          Increase the flow of customers and sales for your business with digital
-          marketing & growth solutions.
-        </p>
-     </div >
+      <div class="container-footer">
+        <div class="footer-logo-text">
+          <a href="./index.html" class="footer-logo logo link"
+            ><span class="logo-color">Web</span>Studio</a
+          >
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
